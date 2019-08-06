@@ -32,9 +32,9 @@ object readDemo{
 //    匿名函数语法，可用于短代码。
 //    全局单例对象中的静态方法。
 
-    //textRdd.take(2).map(MyFunctions.func1).foreach(println)
-    val demoClazz = new readDemo()
-    textRdd.take(2).map(demoClazz.func2).foreach(println)
+    textRdd.take(2).map(MyFunctions.func1).foreach(println)
+//    val demoClazz = new readDemo()
+//    textRdd.take(2).map(demoClazz.func2).foreach(println)
 
   }
 

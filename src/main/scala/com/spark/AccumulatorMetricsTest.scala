@@ -12,14 +12,14 @@ object AccumulatorMetricsTest {
 
   def main(args: Array[String]) {
 
-    val spark = SparkSession
-      .builder()
-//      .config("spark.metrics.conf.*.sink.console.class",
-//        "org.apache.spark.metrics.sink.ConsoleSink")
+      val spark = SparkSession
+        .builder()
+        //      .config("spark.metrics.conf.*.sink.console.class",
+        //        "org.apache.spark.metrics.sink.ConsoleSink")
         .master("local")
-      .getOrCreate()
+        .getOrCreate()
 
-    val sc = spark.sparkContext
+      val sc = spark.sparkContext
 
     val acc = sc.longAccumulator("my-long-metric")
     // register the accumulator, the metric system will report as
