@@ -19,6 +19,9 @@ object Test {
     println(tdid)
     println(dimensions)
 
+    var str = "sss,fff,ccc"
+    println(str.replaceAll(",",""))
+
   }
 
 

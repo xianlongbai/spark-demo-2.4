@@ -22,6 +22,16 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.mortbay.jetty:servlet-api:2.5-20110124:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.mortbay.jetty:jetty:6.1.26:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-tags_2.11:2.4.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-streaming-flume_2.11:2.4.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-streaming-flume-sink_2.11:2.4.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.mina:mina-core:2.0.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.flume:flume-ng-sdk:1.6.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.flume:flume-ng-core:1.6.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.flume:flume-ng-configuration:1.6.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.flume:flume-ng-auth:1.6.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.spark:spark-avro_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.typelevel:macro-compat_2.11:1.1.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.typelevel:machinist_2.11:0.6.1:jar" level="project" />
@@ -174,7 +184,6 @@
     <orderEntry type="library" name="SBT: org.apache.spark:spark-sketch_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.spark:spark-sql_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.spark:spark-streaming_2.11:2.4.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.spark:spark-tags_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.spark:spark-unsafe_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.xbean:xbean-asm6-shaded:4.8:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.zookeeper:zookeeper:3.4.6:jar" level="project" />
@@ -205,7 +214,6 @@
     <orderEntry type="library" name="SBT: org.json4s:json4s-core_2.11:3.5.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.json4s:json4s-jackson_2.11:3.5.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.json4s:json4s-scalap_2.11:3.5.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.lz4:lz4-java:1.4.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.mortbay.jetty:jetty-util:6.1.26:jar" level="project" />
     <orderEntry type="library" name="SBT: org.objenesis:objenesis:2.5.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.roaringbitmap:RoaringBitmap:0.5.11:jar" level="project" />
@@ -224,5 +232,8 @@
     <orderEntry type="library" name="SBT: xerces:xercesImpl:2.9.1:jar" level="project" />
     <orderEntry type="library" name="SBT: xmlenc:xmlenc:0.52:jar" level="project" />
     <orderEntry type="library" name="SBT: mysql:mysql-connector-java:6.0.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.kafka:kafka-clients:2.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-streaming-kafka-0-10_2.11:2.4.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.lz4:lz4-java:1.4.1:jar" level="project" />
   </component>
 </module>
